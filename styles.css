@@ -11,6 +11,9 @@ background-color: white;}
 .profile-wrapper {
   position: relative;
 }
+nav {
+  color: black;
+}
 
 .profile-image {
   width: 250px;
