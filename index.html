@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maria Aguilar - Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="profile-wrapper">
+          <img
+            src="/img/Maria.jpg"
+            alt="Profile Image"
+            class="profile-image animate__animated animate__fadeIn"
+          />
+        </div>
+        <h1 class="animate__animated animate__fadeInDown">Maria Aguilar</h1>
+        <p class="animate__animated animate__fadeInUp">
+          Web Developer &amp; Creative Coder
+        </p>
+      </div>
+    </header>
+
+    <section id="about" class="container">
+      <h2 class="section-title animate__animated animate__fadeIn">About Me</h2>
+      <p class="animate__animated animate__fadeIn">
+        Welcome to my creative space! I am a web developer with a strong passion
+        for creating functional and user friendly applications. I have a strong
+        foundation in HTML, CSS, and Javascript. My journey into the world of
+        web development has equipped me with expertise in building dynamic and
+        responsive web applications. One of my particular core strengths of
+        modern frameworks is React.js. I have successfully developed single-page
+        applications that provide easy and fun use experience. In addition to my
+        front-end technologies, I also have a solid understanding of back-end
+        technologies. Such technologies such as Express.js allows me to design
+        and implement server side logic, creating smooth communication between
+        the client and the server. Utilizing MongoDb as a NoSQL database
+        enhances my ability to create efficient MERN
+        (MongoDb,Express.js,React.js,Node.js) stack applications. I enjoy
+        tackling challenges and collaborating with diverse teams. My goal is to
+        work with a dynamic team who can further advance my tech knowledge and
+        help contribute exceptational digital experience.
+      </p>
+    </section>
+
+    <section id="skills" class="container">
+      <h2 class="section-title animate__animated animate__fadeIn">Skills</h2>
+      <ul class="skills-list animate__animated animate__fadeIn">
+        <li>HTML5, CSS3</li>
+        <li>JavaScript (ES6+)</li>
+        <li>React.js</li>
+        <li>Node.js</li>
+        <li>Git, GitHub</li>
+        <li>Express.js</li>
+        <li>MongoDb</li>
+        <li>DOM</li>
+        <!-- Add more skills as needed -->
+      </ul>
+    </section>
+
+    <section id="projects" class="container">
+      <h2 class="section-title animate__animated animate__fadeIn">Projects</h2>
+
+      <div class="project animate__animated animate__fadeIn">
+        <h3>Project 1</h3>
+        <img
+          src="img/background-img.png"
+          alt="Project 1"
+          class="project-image"
+        />
+        <p>
+          Dia De Los Muertos Memory Game is a card matching game. The cards will
+          have different pictures on one side and each picture will have a
+          matching picture to pair it with. This game is great for memory and
+          concentration purposes. The memory game is composed of HTML, CSS and
+          JavaScript using DOM and hosted on Github pages.
+        </p>
+        <ul class="project-links">
+          <li>
+            <a
+              href="https://github.com/Mariaa1997/Memory-project.git"
+              class="animate__animated animate__fadeInLeft"
+              >GitHub Repository</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://mariaa1997.github.io/Memory-project/"
+              class="animate__animated animate__fadeInRight"
+              >Live Demo</a
+            >
+          </li>
+        </ul>
+        <div class="project-details hidden animate__animated animate__fadeIn">
+          <p>Let's GO!</p>
+        </div>
+      </div>
+
+      <div class="project animate__animated animate__fadeIn">
+        <h3>Project 2</h3>
+        <img
+          src="img/rick-and-morty.jpg"
+          alt="Project 2"
+          class="project-image"
+        />
+        <p>
+          This web application of Rick and Morty was made by using API in
+          React.js Also, HTML, CSS, and JS (jsx) hosted on netlify.
+        </p>
+        <ul class="project-links">
+          <li>
+            <a
+              href="https://github.com/Mariaa1997/MOD2-Project.git"
+              class="animate__animated animate__fadeInLeft"
+              >GitHub Repository</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://chimerical-macaron-b334cf.netlify.app"
+              class="animate__animated animate__fadeInRight"
+              >Live Demo</a
+            >
+          </li>
+        </ul>
+        <div class="project-details hidden animate__animated animate__fadeIn">
+          <p>See you there!!</p>
+        </div>
+      </div>
+      <!-- Add more projects as needed -->
+    </section>
+
+    <section id="contact" class="container">
+      <h2 class="section-title animate__animated animate__fadeIn">Contact</h2>
+      <p class="animate__animated animate__fadeIn">
+        Email: mariaaguilar_95@yahoo.com
+      </p>
+      <p class="animate__animated animate__fadeIn">
+        LinkedIn:
+        <a
+          href="https://www.linkedin.com/in/maria-aguilar-74363311b/"
+          class="animate__animated animate__fadeIn"
+          >LinkedIn Profile</a
+        >
+      </p>
+      <p class="animate__animated animate__fadeIn">
+        GitHub:
+        <a
+          href="https://github.com/Mariaa1997?tab=repositories"
+          class="animate__animated animate__fadeIn"
+          >GitHub Profile</a
+        >
+      </p>
+      <div class="content">
+        <p>
+          <strong>Let's Connect!</strong>
+        </p>
+        <form>
+          <div class="fields">
+            <div class="field half">
+              <input type="text" name="name" id="name" placeholder="Name" />
+            </div>
+            <div class="field half">
+              <input type="email" name="email" id="email" placeholder="Email" />
+            </div>
+            <div class="field">
+              <textarea
+                name="message"
+                -
+                id="message"
+                placeholder="Message"
+                rows="7"
+              ></textarea>
+            </div>
+          </div>
+          <ul class="actions">
+            <li>
+              <input
+                type="submit"
+                value="Send Message"
+                class="button primary"
+              />
+            </li>
+          </ul>
+        </form>
+      </div>
+    </section>
+
+    <div class="social-icons animate__animated animate__fadeIn">
+      <a
+        href="https://www.linkedin.com/in/maria-aguilar-74363311b/"
+        class="icon-link"
+        ><img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
+          alt="LinkedIn"
+      /></a>
+      <a href="https://github.com/Mariaa1997?tab=repositories" class="icon-link"
+        ><img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+          alt="GitHub"
+      /></a>
+    </div>
+
+    <footer class="footer">
+      <div class="container">&copy; 2023 Maria Aguilar - Web Developer</div>
+    </footer>
+
+    <script src="/js/script.js" defer></script>
+  </body>
+</html>
